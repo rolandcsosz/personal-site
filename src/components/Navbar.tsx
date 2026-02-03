@@ -44,7 +44,7 @@ const Navbar = ({ onLogoClick }: NavbarProps) => {
     { name: "About", href: "#about" },
     { name: "Projects", href: "#projects" },
     { name: "Skills", href: "#skills" },
-    { name: "Achievements", href: "#achievements" },
+    //{ name: "Achievements", href: "#achievements" },
     { name: "Contact", href: "#contact" },
   ];
 
@@ -70,7 +70,7 @@ const Navbar = ({ onLogoClick }: NavbarProps) => {
         <div className="flex items-center justify-between h-14">
           <div className="flex items-center">
             <a href="/" onClick={onLogoClick}>
-              <span className="text-xl font-bold text-primary">AZ.</span>
+              <span className="text-xl font-bold text-primary">RCs.</span>
             </a>
           </div>
 
@@ -88,7 +88,7 @@ const Navbar = ({ onLogoClick }: NavbarProps) => {
                 </a>
               ))}
               <ThemeSwitcher />
-              <Button
+              {/*<Button
                 size="sm"
                 className="ml-4"
                 asChild
@@ -97,7 +97,7 @@ const Navbar = ({ onLogoClick }: NavbarProps) => {
                 <a href={resumeUrl} download="Aathif_Zahir_CV.pdf">
                   Resume
                 </a>
-              </Button>
+              </Button>*/}
             </div>
           </div>
 
@@ -157,11 +157,11 @@ const Navbar = ({ onLogoClick }: NavbarProps) => {
                 {link.name}
               </a>
             ))}
-            <Button size="sm" className="ml-3 mt-2" asChild>
+            {/*<Button size="sm" className="ml-3 mt-2" asChild>
               <a href={resumeUrl} download="Aathif_Zahir_CV.pdf">
                 Resume
               </a>
-            </Button>
+            </Button>*/}
           </div>
         </div>
       )}

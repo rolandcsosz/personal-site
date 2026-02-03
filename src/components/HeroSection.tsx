@@ -2,8 +2,8 @@ import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail } from "lucide-react";
 import { motion } from "framer-motion";
 import { Links } from "@/data/links";
-import DeveloperBoard from "./DeveloperBoard";
 import { useSmoothScroll } from "@/hooks/use-smooth-scroll";
+import AnimatedScene from "./AnimatedScene";
 
 const HeroSection = () => {
   const { scrollToSection } = useSmoothScroll();
@@ -21,7 +21,8 @@ const HeroSection = () => {
       id="home"
       className="min-h-screen flex items-center pt-16 relative overflow-hidden"
     >
-      <div className="absolute inset-0 -z-10 bg-gradient-to-br from-blue-50 via-white to-indigo-50 opacity-70"></div>
+      <AnimatedScene />
+      {/* <div className="absolute inset-0 -z-10 bg-gradient-to-br from-blue-50 via-white to-indigo-50 opacity-70"></div> */}
 
       {/* Animated background elements */}
       <motion.div
@@ -51,8 +52,8 @@ const HeroSection = () => {
         }}
       />
 
-      <div className="section-container flex flex-col lg:flex-row items-center justify-between gap-10">
-        <div className="flex flex-col max-w-xl space-y-6 text-center lg:text-left">
+      <div className="section-container flex flex-col lg:flex-row items-center justify-start gap-10 relative z-10">
+        <div className="flex flex-col max-w-xl space-y-6 text-center lg:text-left lg:-ml-96 -mt-56 lg:mt-0">
           <motion.span
             className="text-sm md:text-base font-medium text-primary opacity-90"
             initial={{ opacity: 0, y: 20 }}
@@ -68,14 +69,14 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-            Aathif{" "}
+            Roland{" "}
             <motion.span
               className="highlight-text"
               initial={{ backgroundSize: "0% 3px" }}
               animate={{ backgroundSize: "100% 3px" }}
               transition={{ duration: 1, delay: 1.2 }}
             >
-              Zahir
+              Csősz
             </motion.span>
           </motion.h1>
 
@@ -167,7 +168,7 @@ const HeroSection = () => {
           </motion.div>
         </div>
 
-        <DeveloperBoard />
+
       </div>
     </section>
   );

@@ -1,8 +1,8 @@
 
 {
-  "name": "Aathif Zahir Portfolio",
-  "short_name": "AZ Portfolio",
-  "description": "Portfolio website of Aathif Zahir, a software engineering student specializing in full-stack development.",
+  "name": "Roland Csősz",
+  "short_name": "RCs Site",
+  "description": "Website of Roland Csősz, a software engineer specializing in full-stack development.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#f7fafc",

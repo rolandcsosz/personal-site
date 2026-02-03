@@ -75,7 +75,7 @@ const AboutSection = () => {
                 <FileText className="w-5 h-5 text-primary" /> Bio
               </h3>
               <p className="text-muted-foreground">
-                Software engineering student with a passion for creating
+                Software engineer with a passion for creating
                 innovative solutions. Specializing in full-stack development, I
                 combine technical expertise with creative problem-solving to
                 build user-centric applications.
@@ -89,6 +89,7 @@ const AboutSection = () => {
                   y: -5,
                   boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1)",
                 }}
+                className="flex"
               >
                 <SpotlightCard className="h-full border-[1px] border-white/10 backdrop-blur-sm bg-card/50">
                   <CardContent className="pt-6">
@@ -99,13 +100,10 @@ const AboutSection = () => {
                     <div className="space-y-2">
                       <p className="font-medium">BSc in Software Engineering</p>
                       <p className="text-sm text-muted-foreground">
-                        SLIIT (Sri Lanka Institute of Information Technology)
+                        BME (Budapest University of Technology and Economics)
                       </p>
                       <p className="text-sm text-muted-foreground">
-                        2022 - Present
-                      </p>
-                      <p className="text-sm text-muted-foreground">
-                        Dean's List (2023)
+                        2022 - 2026
                       </p>
                     </div>
                   </CardContent>
@@ -127,22 +125,35 @@ const AboutSection = () => {
                     <div className="space-y-4">
                       <div>
                         <p className="font-medium">
-                          Full Stack Developer Intern
+                          Software Engineer (Typescript/Python)
                         </p>
                         <p className="text-sm text-muted-foreground">
-                          Twist Digital
+                          aiMotive
                         </p>
                         <p className="text-sm text-muted-foreground">
-                          Since March 2025
+                          2024 - Present
                         </p>
                       </div>
                       <div>
-                        <p className="font-medium">Graphic Designer</p>
-                        <p className="text-sm text-muted-foreground">
-                          SLIIT Media Unit
+                        <p className="font-medium">
+                          Software Engineer (C++/Python)
                         </p>
                         <p className="text-sm text-muted-foreground">
-                          Freelance
+                          aiMotive
+                        </p>
+                        <p className="text-sm text-muted-foreground">
+                          2022 - 2024
+                        </p>
+                      </div>
+                      <div>
+                        <p className="font-medium">
+                          Junior RPA Developer
+                        </p>
+                        <p className="text-sm text-muted-foreground">
+                          AGCO
+                        </p>
+                        <p className="text-sm text-muted-foreground">
+                          2021 - 2022
                         </p>
                       </div>
                     </div>
@@ -168,23 +179,20 @@ const AboutSection = () => {
               <Avatar className="w-40 h-40 border-4 border-primary/20">
                 <AvatarImage
                   src="/imgs/me.png"
-                  alt="Aathif Zahir"
+                  alt="Roland Csősz"
                   loading="lazy"
                 />
-                <AvatarFallback>AZ</AvatarFallback>
+                <AvatarFallback>RCs</AvatarFallback>
               </Avatar>
-              <div className="absolute -bottom-2 -right-2 bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm font-medium">
-                3.41 GPA
-              </div>
             </motion.div>
 
             <motion.div
               variants={itemVariants}
               className="text-center lg:text-left"
             >
-              <h3 className="text-2xl font-bold">Aathif Zahir</h3>
+              <h3 className="text-2xl font-bold">Roland Csősz</h3>
               <p className="text-muted-foreground">
-                Software Engineering Student
+                Software Engineer
               </p>
             </motion.div>
 
@@ -211,12 +219,12 @@ const AboutSection = () => {
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.98 }}
             >
-              <Button className="gap-2" asChild onClick={handledownload}>
+              {/*<Button className="gap-2" asChild onClick={handledownload}>
                 <a href={resumeUrl} download="Aathif_Zahir_CV.pdf">
                   <Download className="w-4 h-4" />
                   Download Resume
                 </a>
-              </Button>
+              </Button>*/}
             </motion.div>
           </motion.div>
         </div>

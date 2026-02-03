@@ -20,7 +20,7 @@ const sections = [
   "about",
   "projects",
   "skills",
-  "achievements",
+  //"achievements",
   "contact",
 ];
 
@@ -71,7 +71,6 @@ const Index = () => {
         <AboutSection />
         <ProjectsSection />
         <SkillsSection />
-        <AchievementsSection />
         <ContactSection />
       </Scrollspy>
       <Footer />

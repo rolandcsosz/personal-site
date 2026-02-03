@@ -11,6 +11,9 @@ export type Achievement = {
   link?: string;
 };
 
+export const achievements: Achievement[] = [];
+
+/*
 export const achievements: Achievement[] = [
   {
     title: "2nd Place - Algothon Codefest",
@@ -89,3 +92,4 @@ export const achievements: Achievement[] = [
     icon: Trophy,
   },
 ];
+*/
