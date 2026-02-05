@@ -45,7 +45,7 @@ export const projects: Project[] = [
     imgset: [],
     tags: ["TypeScript", "Graph Data Structures", "Immutable Data", "NPM Package"],
     links: {
-      github: "https://github.com/AathifZahir/ProIntern",
+      github: "https://github.com/rolandcsosz/entity-walker",
       live: "https://www.npmjs.com/package/entity-walker"
     },
   }
