@@ -22,7 +22,7 @@ export function ThemeProvider({ children }: ThemeProviderProps) {
     if (savedTheme === "purple") {
       return "dark";
     }
-    return validThemes.includes(savedTheme) ? savedTheme : "dark";
+    return validThemes.includes(savedTheme) ? savedTheme : "blue";
   });
 
   useEffect(() => {
