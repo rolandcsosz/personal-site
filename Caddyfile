@@ -1,0 +1,3 @@
+rolandcsosz.com, www.rolandcsosz.com {
+    reverse_proxy frontend:80
+}
