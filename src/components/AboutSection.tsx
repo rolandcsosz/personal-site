@@ -89,7 +89,7 @@ const AboutSection = () => {
                   y: -5,
                   boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1)",
                 }}
-                className="flex"
+                className="flex w-fit rounded-lg"
               >
                 <SpotlightCard className="h-full border-[1px] border-white/10 backdrop-blur-sm bg-card/50">
                   <CardContent className="pt-6">
@@ -116,6 +116,7 @@ const AboutSection = () => {
                   y: -5,
                   boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1)",
                 }}
+                className="flex w-fit rounded-lg"
               >
                 <SpotlightCard className="h-full border-[1px] border-white/10 backdrop-blur-sm bg-card/50">
                   <CardContent className="pt-6">
@@ -125,7 +126,7 @@ const AboutSection = () => {
                     <div className="space-y-4">
                       <div>
                         <p className="font-medium">
-                          Software Engineer (Typescript/Python)
+                          Software Engineer (Typescript & Python focus)
                         </p>
                         <p className="text-sm text-muted-foreground">
                           aiMotive
@@ -136,7 +137,7 @@ const AboutSection = () => {
                       </div>
                       <div>
                         <p className="font-medium">
-                          Software Engineer (C++/Python)
+                          Software Engineer (C++ & Python focus)
                         </p>
                         <p className="text-sm text-muted-foreground">
                           aiMotive
@@ -176,7 +177,7 @@ const AboutSection = () => {
               variants={itemVariants}
               whileHover={{ scale: 1.05 }}
             >
-              <Avatar className="w-40 h-40 border-4 border-primary/20">
+              <Avatar className="w-60 h-60 border-4 border-primary/20">
                 <AvatarImage
                   src="/imgs/me.png"
                   alt="Roland Csősz"

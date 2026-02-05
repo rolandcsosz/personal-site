@@ -15,50 +15,38 @@ export type Project = {
 export const projects: Project[] = [
   {
     id: 1,
-    title: "Py Scrap - Amazon Web Scraper",
-    description: "A Python-based scraper using Scrapy to extract product details from Amazon, with MongoDB integration for data storage.",
-    image: "/imgs/p4.png",
-    imgset: ["/imgs/t4 (1).png", "/imgs/t4 (2).PNG"],
-    tags: ["Python", "Scrapy", "MongoDB", "Data Mining"],
+    title: "CareLog",
+    description: "A cross-platform mobile app for android and IOS. Built to help caregivers log and monitor patient vitals and daily activities. Featuring RAG-powered intelligent assistant and other AI features.",
+    image: "/imgs/carelog.png",
+    imgset: [],
+    tags: ["React", "Ionic", "TypeScript", "Python", "Redis", "Vector DB", "Android", "IOS", "RAG", "LLM"],
     links: {
-      github: "https://github.com/AathifZahir/Py-Scrap",
+      github: "https://github.com/rolandcsosz/carelog",
       live: "",
     },
   },
   {
     id: 2,
-    title: "MSR Tailor Store",
-    description: "A full-stack application with React and Node.js for order placement and checkout functionality for a tailor store.",
-    image: "/imgs/p1.png",
-    imgset: ["/imgs/t1 (1).png", "/imgs/t1 (2).png"],
-    tags: ["React", "Node.js", "Express", "MongoDB"],
+    title: "Balanzo",
+    description: "A progressive web application for personal finance management. Installable as native desktop application via Tauri. Features rich data visualizations.",
+    image: "/imgs/balanzo.png",
+    imgset: [],
+    tags: ["PWA", "React", "TypeScript", "PostgreSQL", "Prisma", "Node.js", "OpenAPI"],
     links: {
-      github: "https://github.com/AathifZahir/MSR-ITP",
+      github: "https://github.com/rolandcsosz/balanzo",
       live: "",
     },
   },
   {
     id: 3,
-    title: "Internship Finder - ProIntern",
-    description: "A React Native and Firebase app for managing internships and applications, helping students find relevant opportunities.",
-    image: "/imgs/p2.png",
-    imgset: ["/imgs/t2 (1).jpg", "/imgs/t2 (2).jpg"],
-    tags: ["React Native", "Firebase", "Authentication", "Cloud Functions"],
+    title: "Entity Walker",
+    description: "A small, zero-dependency TypeScript library for working with normalised relational data as an immutable, type-safe graph structure. ",
+    image: "/imgs/entity.png",
+    imgset: [],
+    tags: ["TypeScript", "Graph Data Structures", "Immutable Data", "NPM Package"],
     links: {
       github: "https://github.com/AathifZahir/ProIntern",
-      live: ""
+      live: "https://www.npmjs.com/package/entity-walker"
     },
-  },
-  {
-    id: 4,
-    title: "Minders",
-    description: "A creative community platform built with React and Tailwind CSS, fostering collaboration among creative professionals.",
-    image: "/imgs/p3.png",
-    imgset: ["/imgs/t3 (1).png", "/imgs/t3 (2).png"],
-    tags: ["React", "Tailwind CSS", "Redux", "Firebase"],
-    links: {
-      github: "https://github.com/AathifZahir/Minders",
-      live: "https://minders-sigma.vercel.app/",
-    },
-  },
+  }
 ];

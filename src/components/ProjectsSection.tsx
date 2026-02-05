@@ -119,7 +119,7 @@ const ProjectsSection = () => {
                         aria-label={`View live demo of ${project.title}`}
                       >
                         <ExternalLink size={16} />
-                        <span>Live Demo</span>
+                        <span>See more</span>
                       </a>
                     </Button>
                   )}

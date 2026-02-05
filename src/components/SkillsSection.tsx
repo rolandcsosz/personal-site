@@ -64,6 +64,7 @@ const SkillsSection = () => {
         >
           {skillCategories.map((category, index) => (
             <motion.div
+              className="flex flex-col h-fit rounded-lg"
               key={category.name}
               variants={itemVariants}
               whileHover={{
