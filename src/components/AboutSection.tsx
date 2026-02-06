@@ -110,7 +110,7 @@ const AboutSection = () => {
                                                 Technology and Economics)
                                             </p>
                                             <p className="text-sm text-muted-foreground">
-                                                2020 - 2026
+                                                2022 September - 2026 January
                                             </p>
                                         </div>
                                     </CardContent>
